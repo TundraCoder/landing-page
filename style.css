@@ -13,9 +13,7 @@ header {
     height: 600px;
     margin: 0 200px;
     padding: 20px 100px;
-    
     }
-
 
 .navcontainer {
     display: flex;
@@ -56,6 +54,13 @@ article.container {
 
 button {
     width: 100px;
+    background-color: #3882f6;
+    padding: 8px 5px;
+    color: #f9faf8;
+    font-size: large;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
 }
 
 h1 {
@@ -68,4 +73,36 @@ p {
     color: #f9faf8;
     font-size: 18px;
 }
+
+section.info {
+    background-color: whitesmoke;
+    height: 500px;
+    margin: 0 200px;
+}
+section#imginfo {
+    display: flex;
+    gap: 40;
+}
+
+img.info {
+    height: 100px;
+    width: 100px;
+}
+
+section.info {
+    text-align: center;
+}
+
+div.body {
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+h2{
+    margin-bottom: 100px;
+    padding-top: 50px;
+}
+
+
 
