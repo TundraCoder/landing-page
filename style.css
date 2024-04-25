@@ -13,12 +13,13 @@ header {
     height: 600px;
     margin: 0 200px;
     padding: 20px 100px;
-    }
+}
 
 .navcontainer {
     display: flex;
     justify-content: flex-end;
     justify-content: space-between;
+    flex: 1;
 }
 
 .logo {
@@ -44,12 +45,15 @@ section.container {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex: 1;
+    flex: wrap;
 }
 
 article.container {
     display: flex;
     flex-direction: column;
     gap: 20px;
+    flex-wrap: wrap;
 }
 
 button {
@@ -130,7 +134,18 @@ div.attr {
     align-self: end;
     font-size: 25px;
     padding-top: 20px;
-}    
+} 
+
+footer {
+    height: 100px;
+    background-color: #1f2937;
+    color: #f9faf8;
+    margin: 0 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 
 
