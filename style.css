@@ -87,6 +87,7 @@ section#imginfo {
 img.info {
     height: 100px;
     width: 100px;
+    border-radius: 10px;
 }
 
 section.info {
@@ -102,7 +103,34 @@ div.body {
 h2{
     margin-bottom: 100px;
     padding-top: 50px;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
 }
+
+section.quote {
+    height: 400px;
+    background-color: #e5e7eb;
+    margin: 0 200px;
+    display: flex;
+    flex-direction: column;
+    padding: 0 100px;
+    justify-content: center;
+    
+}
+
+div.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    align-self: center;
+}
+div.attr {
+    font-weight: bolder;
+    align-self: end;
+    font-size: 25px;
+    padding-top: 20px;
+}    
 
 
 
