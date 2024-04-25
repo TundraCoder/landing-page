@@ -4,9 +4,16 @@
     box-sizing: border-box;
 }
 
+body {
+    background-color: black;
+}
+
 header {
     background-color: #1f2937;
     height: 600px;
+    margin: 0 200px;
+    padding: 20px 50px;
+    
     }
 
 
